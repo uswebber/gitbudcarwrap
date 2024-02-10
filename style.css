@@ -1,0 +1,320 @@
+body{
+    background-image: url(picture/photo1707517455.jpeg); 
+   background-position-x: 50%;
+   background-position-y: 50%;
+   background-size: auto;
+   background-repeat: repeat;
+   background-position: center center;
+ }
+ .budli{
+     background-color: rgb(9,50,160);
+     width: 100%;
+     height: auto;
+ }
+ .budlightwrite{
+   width: 50%;
+   letter-spacing: 1.5px;
+ }
+ .allbudlightwrite{
+   display: flex;
+   justify-content: center;
+ }
+ .budlipix{
+   padding: 10px 50%;
+   object-fit: cover;
+ }
+ .fontbud h1{
+     color: #0932A0;
+     text-align: center;
+     letter-spacing: 0.2em;
+     font-weight: 900;
+     font-family: arial black,arial-w01-black,arial-w02-black,arial-w10 black,sans-serif;
+ }
+ .buddrink h3{
+     letter-spacing: 0.01em;
+     background-image: transparent;
+     vertical-align: baseline;
+     text-align: justify;
+     line-height: 1.3em;
+     position: relative;
+   /* margin: 0px 20px 20px  calc((100% - 980px) * 0.5);
+   left: 8px; */
+    grid-area: 2 / 1 / 3 / 2;
+   justify-self: start;
+   align-self: start;
+   font-family: basic,sans-serif;
+ 
+   
+ }
+ .buddrinks h3{
+     letter-spacing: 0.01em;
+     background-image: transparent;
+     vertical-align: baseline;
+     text-align: justify;
+     line-height: 1.3em;
+     position: relative;
+   /* margin: 0px 20px 20px  calc((100% - 980px) * 0.5);
+   left: 8px; */
+    grid-area: 2 / 1 / 3 / 2;
+   justify-self: start;
+   align-self: start;
+   font-family: basic,sans-serif;
+ }
+ 
+ .Compensation p{
+   color: blue;
+   letter-spacing: 0.1em;
+   font-weight: 900;
+   font-size: 2rem;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+ }
+ input[type=email]:focus {
+   background-color: rgb(255,236,236);
+   border: 1px solid rgb(255,64,64);
+   border-bottom: rgb(255,64,64);
+   height: 30px;
+ }
+ input[type=email] {
+   background-color: rgb(104,154,222);
+   border-radius: 1px solid rgb(104,154,222);
+   border: 1px solid rgb(104,154,222);
+   border-bottom: rgb(255,64,64);
+   width: 80%;
+   padding: 23px;
+   height: 30px;
+   display: flex;
+   font-size: 15px;
+ }
+ .allforminfo{
+   justify-content: space-around;
+   border: 5px solid white;
+   width: 500px;
+   padding: 15px;
+   height: auto; 
+   background-color: white;  
+   font-size: 20px;
+ }
+ .damnallforminfo{
+   display: flex;
+   justify-content: center;
+ }
+ .ehhhhhhh{
+   display: flex;
+   gap: 30px;
+ }
+ .submitbutton {
+   background-color: rgb(104,154,222);
+   border: none;
+   color: white;
+   padding: 10px 15px;
+   text-align: center;
+   text-decoration: none;
+   display: block;
+   font-size: 17px;
+   transition-duration: 0.4s;
+   cursor: pointer; 
+   width: 250px;
+   margin-top: 40px;
+ }
+ 
+ 
+ .submitbutton:hover {
+    background-color: rgb(35,76,49);
+   color: white;
+ }
+ .divbutton{
+   justify-content: center;
+   display: flex;
+   /* margin-top: 40px; */
+   margin-bottom: 10px;
+ }
+ .firstnamel {
+   padding-bottom: 15px;
+ }
+ .enjoyr{
+  width: 500px;
+  display: flex;
+  letter-spacing: 1.5px;
+ }
+ .enjoyr h3{
+  text-align: center;
+  font-weight: 900;
+  font-size: 1.5rem;
+ }
+ .enjoyrall{
+  display: flex;
+  justify-content: center;
+ }
+ .enjoy h4{
+  font-family: arial black,arial-w01-black,arial-w02-black,arial-w10 black,sans-serif;
+ }
+  
+ @media screen and (min-width: 320px) and (max-width:768px) {
+     body{
+       width:100%;
+       overflow-x: hidden;
+       overflow-x: hidden;
+       margin-left: 0px;
+       margin-top: 0px;
+       margin-right: auto;
+       background-image: url(picture/photo1707517455.jpeg); 
+       /* background-position-x: 30%;
+       background-position-y: 30%; */
+       background-size: contain;
+       background-repeat: repeat;
+       background-position: center center;
+     
+     }
+     .budli{
+       background-color: rgb(9,50,160);
+       width: 100%;
+       height: auto;
+       margin : 0px;
+       top: 0px;
+      }
+     .budlipix{
+       padding: 10px 35%;
+       width: 150px;
+     }
+     .fontbud h1{
+       color: #0932A0;
+       text-align: start;
+       letter-spacing: 0.3rex;
+       font-size: 25px;
+       font-weight: 100px;
+       font-family: arial black,arial-w01-black,arial-w02-black,arial-w10 black,sans-serif;;
+       width: 80%;
+       margin-left: 10%;
+     }
+     .Compensation p{
+      color: blue;
+      letter-spacing: 0.1em;
+      font-weight: 900;
+      font-size:35px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+     }
+      .budlightwrite{
+       width: 80%;
+      letter-spacing: 0em;
+      margin-left: 10%;
+ 
+      }
+     .allbudlightwrite{
+      /* display: flex; */
+      justify-content: start;
+      font-size: 20px;
+      letter-spacing: 0.1rex;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+     
+     
+     }
+     .allforminfo{
+      justify-content: start;
+      border: 5px solid white;
+      width: 80%;
+      height: auto;
+      margin-left: 2%;
+      /* padding: 5px; */
+      /* padding-bottom: 5px; */
+      background-color: white;  
+      /* position: relative; */
+      font-size: 25px;
+      /* gap: 10%; */
+       /* margin-left: 10%; */
+     }
+    .ehhhhhhh{
+      /* display: flex; */
+      /* gap: 30px; */
+      display: inline-block;
+      /* gap: 5%; */
+      position: relative;
+      /* font-size: 15px; */
+      /* justify-content: center; */
+      margin-left: 5%;
+     }
+     .submitbutton {
+       background-color: rgb(104,154,222);
+       border: none;
+       color: white;
+       padding: 10px 15px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-size: 15px;
+       transition-duration: 0.4s;
+       cursor: pointer; 
+       width: 50%;
+       margin-top: 40px;
+       height: 7vh;
+       font-size: 1.5rem;
+     }
+     .submitbutton:hover {
+       background-color: rgb(35,76,49);
+       color: white;
+     }
+     .divbutton{
+       justify-content: start;
+       display: flex;
+       justify-content: center;
+       margin-top: 40px;
+       /* margin-bottom: 100px; */
+      position: relative;
+      bottom: 40px;
+     }
+     .firstnamel {
+       padding-bottom: 10px;
+     }
+     .fontbuds h2{
+       font-weight: bolder;
+       letter-spacing: 1rex;
+     }
+     input[type=email]:focus {
+       background-color: rgb(255,236,236);
+       border: 1px solid rgb(255,64,64);
+       border-bottom: rgb(255,64,64);
+     }
+     input[type=email] {
+       background-color: rgb(104,154,222);
+       border-radius: 1px solid rgb(104,154,222);
+       border: 1px solid rgb(104,154,222);
+       border-bottom: rgb(255,64,64);
+       width: 100%;
+       height: 41px;
+       gap: 5%;
+       font-size: 20px;
+       /* margin-left: 10%; */
+     }
+     
+     .enjoyr{
+       width: 80%;
+       display: flex;
+       letter-spacing: 0.0.1rem;
+     }
+     .enjoyr h3{
+       text-align: start;
+       font-weight: 900;
+       font-size: 25px;
+       font-family: arial black,arial-w01-black,arial-w02-black,arial-w10 black,sans-serif;
+     }
+     .enjoyrall{
+       display: flex;
+       justify-content: center;
+       
+     }
+     .enjoy h4{
+       font-size: 25px;
+       letter-spacing: 0.1em;
+       font-family: basic,sans-serif;
+     }
+ 
+ } 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
