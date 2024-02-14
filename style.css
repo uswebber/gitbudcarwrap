@@ -68,69 +68,6 @@ body{
    font-size: 2rem;
    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
  }
- input[type=email]:focus {
-   background-color: rgb(255,236,236);
-   border: 1px solid rgb(255,64,64);
-   border-bottom: rgb(255,64,64);
-   height: 30px;
- }
- input[type=email] {
-   background-color: rgb(104,154,222);
-   border-radius: 1px solid rgb(104,154,222);
-   border: 1px solid rgb(104,154,222);
-   border-bottom: rgb(255,64,64);
-   width: 80%;
-   padding: 23px;
-   height: 30px;
-   display: flex;
-   font-size: 15px;
- }
- .allforminfo{
-   justify-content: space-around;
-   border: 5px solid white;
-   width: 500px;
-   padding: 15px;
-   height: auto; 
-   background-color: white;  
-   font-size: 20px;
- }
- .damnallforminfo{
-   display: flex;
-   justify-content: center;
- }
- .ehhhhhhh{
-   display: flex;
-   gap: 30px;
- }
- .submitbutton {
-   background-color: rgb(104,154,222);
-   border: none;
-   color: white;
-   padding: 10px 15px;
-   text-align: center;
-   text-decoration: none;
-   display: block;
-   font-size: 17px;
-   transition-duration: 0.4s;
-   cursor: pointer; 
-   width: 250px;
-   margin-top: 40px;
- }
- 
- 
- .submitbutton:hover {
-    background-color: rgb(35,76,49);
-   color: white;
- }
- .divbutton{
-   justify-content: center;
-   display: flex;
-   /* margin-top: 40px; */
-   margin-bottom: 10px;
- }
- .firstnamel {
-   padding-bottom: 15px;
- }
  .enjoyr{
   width: 500px;
   display: flex;
@@ -148,6 +85,52 @@ body{
  .enjoy h4{
   font-family: arial black,arial-w01-black,arial-w02-black,arial-w10 black,sans-serif;
  }
+
+ form {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(19, 18, 18, 0.8);
+  border-radius: 10px;
+  position: relative;
+  z-index: 2;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact-support {
+  margin-top: 50px;
+}
+
+.contact-support p {
+  color: #fff;
+}
+
+.contact-support button {
+  background-color: #0088cc; /* Adjust the color as needed */
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
   
  @media screen and (min-width: 320px) and (max-width:768px) {
      body{
